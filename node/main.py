@@ -14,8 +14,6 @@ def _main(nodestate):
     # Cleanup stage
     node.Exit()
 
-
-    pass
-
+    exit(0)
 if __name__ == "__main__":
     _main(arghandler.handleNodeArgs())
